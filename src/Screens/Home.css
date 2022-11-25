@@ -1,0 +1,88 @@
+.body {
+    background-color: white;
+}
+.image {
+
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(244, 237, 237);
+    padding-top: 40px
+}
+
+/* carousel css */
+#carouselImg{
+    opacity:5;
+}
+
+/* Card css */
+.cardImg{
+    margin-top: 20px;
+}
+.card{
+border-radius: 20px;
+}
+
+
+/* CardYoutube css */
+.youtube {
+padding-left: 20px;
+padding-right: 20px;
+background-color: rgb(244, 237, 237);
+margin-left: 100px;
+margin-right: 100px;
+padding-top: 20px;
+
+}
+
+/* CardBody css */
+
+.Cardbody {
+    background-color: rgb(244, 237, 237);
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+
+}
+/* .Cardbody {
+    background-color: white;
+    
+    margin-right: 100px;
+    margin-top: 100px;
+    
+} */
+
+
+.hr {
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+/* KeyFeatures css  */
+.FeaturesContainer{
+
+    background-color: rgb(244, 237, 237);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.Features {
+    border: 1px solid black;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Inference css */
+.Inference{
+    background-color: rgb(244, 237, 237);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 30px;
+}
+
+
+/* footer css */
+.linkTag{
+    margin: 25px;
+}
