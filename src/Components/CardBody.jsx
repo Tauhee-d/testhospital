@@ -1,22 +1,18 @@
 import React from "react";
-const CardBody = ({ src1, heading, id }) => {
+const CardBody = ({ src1, heading, id, Description }) => {
     return (
         <>
             <div className="Cardbody" id={id} >
 
                 <div className="row" >
                     <div className="col-sm-6">
-                        <img className="cardImg" src={src1} alt="" width={400} height={300} />
+                        <img className="cardImg" src={src1} alt="" width={500} height={300} />
                     </div>
                     <div className="col-sm-6">
-                        <h3>{heading}</h3>
+                        <h3 style={{ marginTop: '30px', marginRight: '450px' }}>{heading}</h3>
                         <p className="paragraph">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-                            necessitatibus possimus similique voluptatum eos quaerat dolores
-                            nulla cumque corrupti modi sunt delectus amet dicta, perferendis
-                            sint dignissimos quo aut vero doloribus ex? Soluta praesentium
-                            quidem eum, dolorum, corrupti tempore deleniti et ullam inventore
-                            aliquid atque natus voluptatibus quisquam maiores deserunt.
+
+                            {Description}
                         </p>
                     </div>
                 </div>
@@ -28,3 +24,15 @@ const CardBody = ({ src1, heading, id }) => {
     );
 };
 export default CardBody;
+// import React from "react";
+// const CardBody = ({ src1, heading, id, Description }) => {
+//     return (
+//         <>
+
+//             <div className="cardbody">
+//                 <h2>hii</h2>
+//             </div>
+//         </>
+//     );
+// };
+// export default CardBody;

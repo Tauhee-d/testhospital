@@ -10,15 +10,20 @@ const Footer = ({ src1 }) => {
                 <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
                     <img src={src1} alt="" width="150" height="100" />
 
-                    <h6>Registered office location</h6>
-                    <p> Lorem ipsum dolor sit</p>
-                    <p> Lorem ipsum dolor sit</p>
-                    <p> Lorem ipsum dolor sit</p>
+                    <h6>Registered office location </h6>
+                    <p>301, Gowara Tulip, <br /> Survey No 14 and 15,
+                        <br />Gafoor Nagar, Hyderabad-500081, Telangana
+                        <br /><strong>info.yantram@yantrammedtech.com</strong>
+                        <br />040-35855589 (Landline)</p>
+
                     <hr />
                     <h6>Physical office location</h6>
-                    <p> Lorem ipsum dolor sit</p>
-                    <p> Lorem ipsum dolor sit</p>
-                    <p> Lorem ipsum dolor sit</p>
+                    <p> #A102, Sai Rasik Residency
+                        <br />Image Hospital Lane,
+                        <br />Madhapur,  Hyderabad - 500081, Telangana
+                        <br />+91-7993648675
+                    </p>
+
                 </div>
 
 

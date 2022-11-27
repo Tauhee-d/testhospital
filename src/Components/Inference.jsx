@@ -1,12 +1,12 @@
 import React from 'react'
-const Inference = ({ title }) => {
+const Inference = ({ title, body }) => {
     return (
         <>
             <div className="Inference">
-                <h3>{title}</h3>
-                <p >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam quisquam
-                    voluptate dignissimos, odio delectus totam consequatur ratione quos ipsa
-                    at distinctio blanditiis hic dolores voluptatibus, beatae fugiat porro alias </p>
+                <h3 style={{ marginRight: '900px' }}>{title}</h3>
+                <p >
+                    {body}
+                </p>
             </div>
         </>
     )
