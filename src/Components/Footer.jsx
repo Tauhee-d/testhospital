@@ -42,15 +42,17 @@ const Footer = ({ src1 }) => {
                 </div>
 
             </div>
-            <div className="icons">
-                <p>Come join us at</p>
+            <div className="footer-icons" style={{ marginTop: '50px' }}>
+                <div className="icons">
+                    <p>Come join us at</p>
 
-                <a href='https://www.facebook.com/people/Yantram-Medtech-Pvt-Ltd/100078138813384/'> <AiFillFacebook size='40px' /></a>
-                <a href='https://twitter.com/YantramM'> <AiFillTwitterSquare size='40px' /></a>
-                <a href='https://www.instagram.com/yantram.medtech/'> <AiFillInstagram size='40px' /></a>
-                <a href='https://www.linkedin.com/company/yantram-medtech-private-limited/'> <AiFillLinkedin size='40px' /></a>
-                <a href='https://www.youtube.com/channel/UClbfjSeVUFHKDzTx0tb6bjg'> <AiFillYoutube size='40px' /></a>
+                    <a href='https://www.facebook.com/people/Yantram-Medtech-Pvt-Ltd/100078138813384/'> <AiFillFacebook size='40px' /></a>
+                    <a href='https://twitter.com/YantramM'> <AiFillTwitterSquare size='40px' /></a>
+                    <a href='https://www.instagram.com/yantram.medtech/'> <AiFillInstagram size='40px' /></a>
+                    <a href='https://www.linkedin.com/company/yantram-medtech-private-limited/'> <AiFillLinkedin size='40px' /></a>
+                    <a href='https://www.youtube.com/channel/UClbfjSeVUFHKDzTx0tb6bjg'> <AiFillYoutube size='40px' /></a>
 
+                </div>
             </div>
 
         </div>
